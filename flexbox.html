@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Example</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav,
+      main,
+      footer {
+        padding: 10px;
+      }
+      header {
+        background-color: brown;
+        color: black;
+        text-align: center;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
+      nav li {
+        margin: 0 10px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+      }
+      main {
+        display: flex;
+      }
+      section {
+        flex: 2;
+        padding-right: 20px;
+      }
+      aside {
+        flex: 1;
+        background-color: rgb(13, 142, 142);
+        padding: 10px;
+      }
+      footer {
+        background-color: brown;
+        color: black;
+        text-align: center;
+        padding: 10px o;
+        left: 0;
+
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Flexbox Example</h1></header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Content</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Welcome to our website</h2>
+        <p>This is a simple example of a webpage layout using Flexbox.</p>
+      </section>
+      <aside>
+        <h3>Latest News</h3>
+        <ul>
+          <li>News item 1</li>
+          <li>News item 2</li>
+          <li>News item 3</li>
+        </ul>
+      </aside>
+    </main>
+    <footer><p>2024 Flexbox Example</p></footer>
+  </body>
+</html>

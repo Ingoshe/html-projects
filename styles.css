@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+font-weight: 900;
+font-family: cursive;
+color:rgb(92, 78, 80);
+}
+header{background-color: azure;
+    font-stretch: expanded;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+aside{
+width: 40%;
+padding-top: inherit;
+margin-left: 0.5em;
+float: right;
+font-style: italic;
+
+
+
+}
+footer{
+position: relative;
+bottom: auto;
+
+background-color: bisque;
+
+}
+h2{
+    font-style: oblique;
+}
+nav
+
+
+
+
+
+
+

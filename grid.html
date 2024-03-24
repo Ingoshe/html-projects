@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid Example</title>
+    <style>
+      body {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      nav,
+      main,
+      footer {
+        padding: 30px;
+        text-align: center;
+      }
+      header,
+      footer {
+        background-color: aqua;
+      }
+      nav {
+        background-color: brown;
+        color: cornflowerblue;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 350px 800px 300px;
+        grid-gap: 5px;
+      }
+      .left,
+      .right {
+        background-color: bisque;
+        padding: 10px;
+      }
+      .content {
+        background-color: brown;
+        padding: 10px;
+      }
+      footer {
+        padding: 20px;
+        bottom: 0%;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <main>
+      <section class="left">Left Sidebar</section>
+      <section class="content">Content Area</section>
+      <section class="right">Right Sidebar</section>
+    </main>
+    <footer>2024 Grid Example</footer>
+  </body>
+</html>
